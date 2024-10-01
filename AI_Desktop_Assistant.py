@@ -77,7 +77,10 @@ if __name__ == "__main__":
 
         elif 'open mail' in query:
             webbrowser.open("gmail.com")  
-         
+
+        elif 'good night' in query:
+            speak("Good night Sir")
+            
         elif 'terminate' in query:
             speak("Good Bye Sir")
             break   
